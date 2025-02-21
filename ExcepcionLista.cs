@@ -8,7 +8,7 @@ namespace EjercicioListas
 {
     internal class EmptyListException : ApplicationException
     {
-        public EmptyListException(string nombre)
+        public EmptyListException()
             : base("La lista esta vacía.")
         {
 
